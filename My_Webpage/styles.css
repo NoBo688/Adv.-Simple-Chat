@@ -1,0 +1,143 @@
+body {
+	background-color: #23272A;
+}
+.login_body, .sign_up_body {
+	background-image: url('bluemtns.png');
+}
+#login_window {
+	float: left;
+	color: #858ef5;
+	font-family: Verdana;
+	border: 20px;
+	margin-top: 220px;
+	margin-left: 163px;
+	z-index: 1;
+	text-align: center;
+}
+#logout {
+	background-color: #5865F2;
+}
+#logout:hover {
+	background-color: #404EED;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+
+h2 {
+	float: right;
+	padding-top: 0px;
+
+}
+.square {
+	height: 500px;
+	width: 504px;
+	background-color: #23272A;
+	border-radius: 10px;
+	position: fixed;
+	margin-top: 155px;
+	margin-left: 120px;
+	z-index: -2;
+}
+#username, #usernamelabel {
+	font-family: Verdana;
+	font-weight: bolder;
+	font-size: 25px;
+	float: left;
+	margin-left: -380px;
+	margin-top: 325px;
+	border-radius: 4px;
+}
+#username {
+	color: #cad3d9;
+	font-family: Monaco;
+	background-color: #f6f6f6;
+}
+#usernamelabel {
+	color: #788e9d;
+	padding: -2000px;
+}
+#password, #passwordlabel {
+	font-family: Verdana;
+	font-weight: bolder;
+	font-size: 25px;
+	float: left;
+	margin-left: -380px;
+	margin-top: 390px;
+	border-radius: 4px;
+}
+#password {
+	color: #cad3d9;
+	font-family: Monaco;
+	background-color: #f6f6f6;
+}
+#passwordlabel {
+	color: #788e9d;
+	padding: -2000px;
+}
+#submit {
+	
+	color: #99AAB5s;
+	background-color: #5865F2;
+	font-family: Monaco;
+	font-weight: bolder;
+	font-size: 20px;
+	float: left;
+	margin-left: -330px;
+	margin-top: 435px;
+	border-radius: 7px;
+	border: 50px;
+}
+#submit:hover {
+	cursor: pointer;
+	background-color: #404EED;
+}
+#chat_box {
+	margin-top: 715px;
+	margin-left: 270px;
+	font-size: 35px;
+	background-color: #4c5158;
+	border-radius: 7px;
+	width: 800px;
+}
+.signupbox {
+	margin-right: ;
+}
+#signup {
+	font-family: Lucida Console;
+	font-weight: bolder;
+	display: block;
+	margin-top: 455px;
+	margin-left: -350px;
+	z-index: 1;
+	text-align: center;
+
+}
+.rectangle {
+	height: 780px;
+	width: 340px;
+	background-color: #363a3f;
+	float: right;
+	border-radius: 3px;
+}
+.user_list {
+	margin-right: -230px;
+	margin-top: 30px;
+	color: #99AAB5;
+	font-family: CopperPlate;
+}
+#login {
+	font-family: Lucida Console;
+	font-weight: bolder;
+	display: block;
+	margin-top: 455px;
+	margin-left: -340px;
+	z-index: 1;
+	text-align: center;
+}
